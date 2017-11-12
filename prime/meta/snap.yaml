@@ -1,0 +1,15 @@
+apps:
+  hello:
+    command: command-hello.wrapper
+architectures:
+- amd64
+confinement: devmode
+description: |
+  The purpose of this snap is for me to test snapcraft commands users
+  reported as with defects or faulty. Without being able to cause
+  any damage to an existing project, this particular snap works as
+  a sandbox for me and anyone interested in using the same snap.
+grade: devel
+name: gsilva-test-snap
+summary: Test snap to test snapcraft commands.
+version: '0.1'
