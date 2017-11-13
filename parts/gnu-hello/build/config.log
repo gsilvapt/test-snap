@@ -481,7 +481,7 @@ configure:7076: $? = 0
 configure:7076: result: yes
 configure:7076: checking for _set_invalid_parameter_handler
 configure:7076: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccBFFsTx.o: In function `main':
+/tmp/cckzotEG.o: In function `main':
 /home/gsilvapt/test-snap/parts/gnu-hello/build/conftest.c:81: undefined reference to `_set_invalid_parameter_handler'
 collect2: error: ld returned 1 exit status
 configure:7076: $? = 1

@@ -1,9 +1,9 @@
 apps:
-  hello:
-    command: command-hello.wrapper
+  gsilva-test-snap:
+    command: command-gsilva-test-snap.wrapper
 architectures:
 - amd64
-confinement: devmode
+confinement: strict
 description: |
   The purpose of this snap is for me to test snapcraft commands users
   reported as with defects or faulty. Without being able to cause

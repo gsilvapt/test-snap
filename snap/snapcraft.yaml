@@ -6,13 +6,12 @@ description: |
   reported as with defects or faulty. Without being able to cause
   any damage to an existing project, this particular snap works as
   a sandbox for me and anyone interested in using the same snap.
-
 grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+confinement: strict # use 'strict' once you have the right plugs and slots
 
 apps:
-  hello:
-    command: bin/hello
+  gsilva-test-snap:
+    command: hello
 
 parts:
   gnu-hello:
